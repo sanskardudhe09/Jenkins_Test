@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'run make'
+        sh 'make'
         sh './a.out'
       }
     }
